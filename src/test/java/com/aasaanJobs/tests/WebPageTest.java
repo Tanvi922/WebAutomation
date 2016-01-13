@@ -81,7 +81,6 @@ public class WebPageTest {
         driver.findElement(By.id("id_password")).clear();
         driver.findElement(By.id("id_password")).sendKeys("12");
         driver.findElement(By.id("login_new")).click();
-//        assertEquals("Username And Password Do Not Match.", driver.findElement(By.id("login-err-msg")).getText());
         driver.findElement(By.id("id_emailOrMobile")).clear();
         driver.findElement(By.id("id_password")).clear();
         driver.findElement(By.id("login_new")).click();
